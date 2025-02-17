@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Tesla';
+  src: url('/font/TESLA.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+body{
+  scroll-behavior: smooth;
+  background: black;
+}
+
+#SVG{
+  height: 150px;
+  width: 150px;
+  stroke: white;
+  stroke-width: 2px;
+  fill-opacity: 0;
+  stroke-dasharray: 4500;
+  animation: draw 5s ease-in-out forwards;
+}
+
+@keyframes draw {
+  0%{
+    stroke-dashoffset: 4500;
+  }
+  100%{
+    stroke-dashoffset: 0;
+  }
+}
