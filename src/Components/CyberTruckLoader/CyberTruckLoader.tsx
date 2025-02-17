@@ -14,7 +14,7 @@ function CyberTruckLoader() {
     () => {
       const tl = gsap.timeline({
         onUpdate: function () {
-          if (tl.progress() >= 0.50) {
+          if (tl.progress() >= 0.5) {
             setShowHeroSection(true);
           }
         },

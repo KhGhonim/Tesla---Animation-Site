@@ -1,4 +1,3 @@
-"use client";
 import AlphabaticLoader from "@/Components/AlphabaticLoader/AlphabaticLoader";
 export default function Home() {
   return (
