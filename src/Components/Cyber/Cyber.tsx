@@ -15,19 +15,19 @@ function Cyber() {
       tl.fromTo(
         "#CyberBG",
         {
-          top: "0.975rem",
-          right: "0.975rem",
-          bottom: "0.975rem",
-          left: "0.975rem",
+          top: "1.5rem",
+          right: "1.5rem",
+          bottom: "1.5rem",
+          left: "1.5rem",
         },
         {
           top: 0,
           right: 0,
           bottom: 0,
           left: 0,
-          duration: 2,
-          ease: "circ.inOut",
-          delay: 2,
+          duration: 1.5,
+          ease: "power4.inOut",
+          delay: 4.8,
         }
       );
     },
@@ -38,13 +38,13 @@ function Cyber() {
       <div id="CyberBG" className="absolute inset-3.5  ">
         <Navbar />
         <HeroSection />
-        <Image 
-        src="/Mask group.png"
-        className="absolute inset-0 z-50 w-full h-full object-cover" 
-        alt="Tesla Off Light Mobil"
-        width={100}
-        height={100}
-      />
+        <Image
+          src="/Mask group.png"
+          className="absolute inset-0 z-50 w-full h-full object-cover"
+          alt="Tesla Off Light Mobil"
+          width={100}
+          height={100}
+        />
       </div>
     </div>
   );

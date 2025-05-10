@@ -20,7 +20,7 @@ function Explore() {
           ease: "power4.inOut",
           background: "transparent",
           duration: 1,
-          delay: 4,
+          delay: 4.3,
         }
       );
       tl1.fromTo(
